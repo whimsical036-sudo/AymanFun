@@ -19,13 +19,17 @@ body {
   font-family: "SF Pro Display", sans-serif;
 }
 
-/* Logo */
+/* Smaller logo */
 .logo {
-  width: 500px;
-  margin-bottom: 50px;
+  width: 20%;
+  min-width: 180px;
+
+  margin-bottom: 40px;
+
+  object-fit: contain;
 }
 
-/* Big modern button */
+/* Modern button */
 .main-button {
   width: 400px;
   height: 100px;
@@ -41,11 +45,17 @@ body {
 
   cursor: pointer;
 
-  transition: 0.2s ease;
-
-  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease;
 }
 
+/* Hover animation */
 .main-button:hover {
   transform: scale(1.08);
+}
+
+/* Counter text */
+.counter-text {
+  margin-top: 25px;
+
+  font-size: 28px;
 }
