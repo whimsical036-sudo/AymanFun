@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.logo {
+  width: 10%;
+  margin-top: 20px;
+  object-fit: contain;
+}
