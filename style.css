@@ -1,23 +1,54 @@
+/* style.css */
+
 @font-face {
   font-family: "SF Pro Display";
   src: url("sf-pro-display-semibold.otf") format("opentype");
 }
+
 body {
   margin: 0;
   background: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
+  font-family: "SF Pro Display", sans-serif;
 }
 
+/* Logo */
 .logo {
-  width: 30%;
+  width: 45%;
   margin-top: 20px;
   object-fit: contain;
 }
 
+/* Title */
 h1 {
-  font-family: "SF Pro Display", sans-serif;
   margin-top: 20px;
+  font-size: 42px;
+}
+
+/* Neal.fun style button */
+.main-button {
+  margin-top: 60px;
+  width: 320px;
+  height: 80px;
+
+  border: none;
+  border-radius: 28px;
+
+  background: black;
+  color: white;
+
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 28px;
+
+  cursor: pointer;
+
+  transition: transform 0.2s ease;
+}
+
+/* Hover animation */
+.main-button:hover {
+  transform: scale(1.08);
 }
