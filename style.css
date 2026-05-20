@@ -7,48 +7,61 @@
 
 body {
   margin: 0;
-  background: white;
+  min-height: 100vh;
+
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  min-height: 100vh;
+
+  background: linear-gradient(to bottom, #ffffff, #f1f1f1);
+
   font-family: "SF Pro Display", sans-serif;
+
+  overflow: hidden;
 }
 
-/* Logo */
+/* Bigger centered logo */
 .logo {
-  width: 45%;
-  margin-top: 20px;
+  width: 55%;
+  max-width: 700px;
+  margin-bottom: 50px;
+
   object-fit: contain;
+
+  filter: drop-shadow(0px 10px 25px rgba(0,0,0,0.15));
 }
 
-/* Title */
-h1 {
-  margin-top: 20px;
-  font-size: 42px;
-}
-
-/* Neal.fun style button */
+/* Modern big button */
 .main-button {
-  margin-top: 60px;
-  width: 320px;
-  height: 80px;
+  width: 420px;
+  height: 100px;
 
   border: none;
-  border-radius: 28px;
+  border-radius: 35px;
 
   background: black;
   color: white;
 
   font-family: "SF Pro Display", sans-serif;
-  font-size: 28px;
+  font-size: 34px;
+  letter-spacing: -1px;
 
   cursor: pointer;
 
-  transition: transform 0.2s ease;
+  box-shadow: 0px 15px 35px rgba(0,0,0,0.25);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease;
 }
 
 /* Hover animation */
 .main-button:hover {
   transform: scale(1.08);
+
+  box-shadow: 0px 20px 45px rgba(0,0,0,0.35);
+
+  background: #111;
 }
