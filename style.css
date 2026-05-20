@@ -29,7 +29,7 @@ body {
   object-fit: contain;
 }
 
-/* Modern button */
+/* Main button */
 .main-button {
   width: 400px;
   height: 100px;
@@ -48,7 +48,7 @@ body {
   transition: transform 0.2s ease;
 }
 
-/* Hover animation */
+/* Hover effect */
 .main-button:hover {
   transform: scale(1.08);
 }
