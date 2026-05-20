@@ -1,15 +1,23 @@
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("sf-pro-display-semibold.otf") format("opentype");
+}
 body {
   margin: 0;
   background: white;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
   height: 100vh;
-  font-family: Arial, sans-serif;
 }
 
 .logo {
   width: 30%;
   margin-top: 20px;
   object-fit: contain;
+}
+
+h1 {
+  font-family: "SF Pro Display", sans-serif;
+  margin-top: 20px;
 }
