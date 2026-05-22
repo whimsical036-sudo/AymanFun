@@ -1,28 +1,11 @@
-.main-button {
-  width: 400px;
-  height: 100px;
-
-  border: none;
-  border-radius: 30px;
-
-  background: black;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  overflow: hidden;
-
-  cursor: pointer;
-
-  transition: transform 0.2s ease;
-}
-
 .button-logo {
-  width: 80%;
-  height: 80%;
+  max-width: 90%;
+  max-height: 90%;
+
+  width: auto;
+  height: auto;
 
   object-fit: contain;
 
-  pointer-events: none;
+  display: block;
 }
