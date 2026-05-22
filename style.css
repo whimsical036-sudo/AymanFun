@@ -59,10 +59,3 @@ body {
 .main-button:hover {
   transform: scale(1.08);
 }
-
-/* Counter text */
-.counter-text {
-  margin-top: 25px;
-
-  font-size: 28px;
-}
