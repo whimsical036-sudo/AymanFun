@@ -1,42 +1,3 @@
-/* style.css */
-
-@font-face {
-  font-family: "SF Pro Display";
-  src: url("sf-pro-display-semibold.otf") format("opentype");
-}
-
-body {
-  margin: 0;
-  min-height: 100vh;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  background: #f5f5f5;
-
-  font-family: "SF Pro Display", sans-serif;
-}
-
-/* Smaller logo */
-.logo {
-  width: 10%;
-  min-width: 100px;
-
-  margin-bottom: 40px;
-
-  object-fit: contain;
-}
-
-.button-logo {
-  width: 70%;
-  height: 70%;
-  object-fit: contain;
-  pointer-events: none;
-}
-
-/* Main button */
 .main-button {
   width: 400px;
   height: 100px;
@@ -50,12 +11,18 @@ body {
   justify-content: center;
   align-items: center;
 
+  overflow: hidden;
+
   cursor: pointer;
 
   transition: transform 0.2s ease;
 }
 
-/* Hover effect */
-.main-button:hover {
-  transform: scale(1.08);
+.button-logo {
+  width: 80%;
+  height: 80%;
+
+  object-fit: contain;
+
+  pointer-events: none;
 }
