@@ -28,11 +28,14 @@ body {
 
   object-fit: contain;
 }
+
 .button-logo {
-  width: 100px;
-  height: auto;
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
   pointer-events: none;
 }
+
 /* Main button */
 .main-button {
   width: 400px;
@@ -42,10 +45,10 @@ body {
   border-radius: 30px;
 
   background: black;
-  color: white;
 
-  font-size: 32px;
-  font-family: "SF Pro Display", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   cursor: pointer;
 
